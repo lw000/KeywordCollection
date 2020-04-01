@@ -1,0 +1,16 @@
+{
+    "count": 1,
+    "millisecond": 100,
+    "query": {
+        "urladdr_": "http://47.97.103.250:9111/api/query",
+        "urladdr": "http://192.168.1.73:9111/api/query",
+        "data": [
+            { "id": "1", "engine": "baidu", "device": "mobile", "wd": "李伟", "domain": "http://www.sdfsdfds.com", "page": "1" }
+        ]
+    },
+    "ws": {
+        "scheme": "ws",
+        "host": "192.168.1.73:9111",
+        "path": "ws"
+    }
+}

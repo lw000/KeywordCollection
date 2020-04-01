@@ -1,0 +1,23 @@
+{
+    "count": 1,
+    "millisecond": 100,
+    "query": {
+        "urladdr_": "http://47.97.103.250:9111/api/query",
+        "urladdr": "http://192.168.1.73:9111/api/query",
+        "data": [
+            { "engine": "baidu", "device": "pc", "wd": "百人牛牛", "wdlink": "http://www.sdfsdfds.com", "page": "1" },
+            { "engine": "baidu", "device": "mobile", "wd": "百人牛牛", "wdlink": "http://www.sdfsdfds.com", "page": "1" },
+            { "engine": "so360", "device": "pc", "wd": "百人牛牛", "wdlink": "http://www.sdfsdfds.com", "page": "1" },
+            { "engine": "so360", "device": "mobile", "wd": "百人牛牛", "wdlink": "http://www.sdfsdfds.com", "page": "1" },
+            { "engine": "sogou", "device": "pc", "wd": "百人牛牛", "wdlink": "http://www.sdfsdfds.com", "page": "1" },
+            { "engine": "sogou", "device": "mobile", "wd": "百人牛牛", "wdlink": "http://www.sdfsdfds.com", "page": "1" },
+            { "engine": "shenma", "device": "mobile", "wd": "百人牛牛", "wdlink": "http://www.sdfsdfds.com", "page": "1" }
+        ]
+    },
+    "ws": {
+        "scheme": "ws",
+        "host_": "47.97.103.250:9111",
+        "host": "192.168.1.73:9111",
+        "path": "ws"
+    }
+}
