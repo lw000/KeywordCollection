@@ -57,7 +57,8 @@ func (mob *mobileSearch) SearchChrome() error {
 
 	time.Sleep(time.Millisecond * mob.Opt().Delay)
 
-	qElem, err := mob.WebBrowser().FindElement(selenium.ByID, "q")
+	var qElem selenium.WebElement
+	qElem, err = mob.WebBrowser().FindElement(selenium.ByID, "q")
 	if err != nil {
 		log.Error(err)
 		return err
@@ -71,7 +72,8 @@ func (mob *mobileSearch) SearchChrome() error {
 
 	time.Sleep(time.Millisecond * mob.Opt().Delay)
 
-	searchBtnElem, err := mob.WebBrowser().FindElement(selenium.ByCSSSelector, "form>.search-btn")
+	var searchBtnElem selenium.WebElement
+	searchBtnElem, err = mob.WebBrowser().FindElement(selenium.ByCSSSelector, "form>.search-btn")
 	if err != nil {
 		log.Error(err)
 		return err
@@ -107,7 +109,8 @@ func (mob *mobileSearch) SearchChrome() error {
 		time.Sleep(time.Millisecond * mob.Opt().Delay)
 	}
 
-	body, err := mob.WebBrowser().PageSource()
+	var body string
+	body, err = mob.WebBrowser().PageSource()
 	if err != nil {
 		log.Error(err)
 		return err
