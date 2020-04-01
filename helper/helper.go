@@ -20,7 +20,7 @@ func MatchUrl(s string) string {
 	return s
 }
 
-func GenerUrl(u string) string {
+func GenderUrl(u string) string {
 	u = strings.TrimSpace(u)
 	// i := strings.Index(u, "http://")
 	// if i >= 0 {

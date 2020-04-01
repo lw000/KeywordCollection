@@ -12,9 +12,9 @@ import (
 	"fmt"
 	_ "github.com/icattlecoder/godaemon"
 	"github.com/judwhite/go-svc/svc"
-	tygin "github.com/lw000/gocommon/app/gin"
-	tysys "github.com/lw000/gocommon/sys"
-	tymiddleware "github.com/lw000/gocommon/web/gin/middleware"
+	"github.com/lw000/gocommon/app/gin"
+	"github.com/lw000/gocommon/sys"
+	"github.com/lw000/gocommon/web/gin/middleware"
 	log "github.com/sirupsen/logrus"
 	"os"
 )

@@ -47,10 +47,10 @@ func saveDomainRankResultHandler(html *htmlParse) error {
 					hyperlinkHost *url.URL
 				)
 				s1 := helper.MatchUrl(d.Domain)
-				s1 = helper.GenerUrl(s1)
+				s1 = helper.GenderUrl(s1)
 
 				s2 := helper.MatchUrl(data.Hyperlink)
-				s2 = helper.GenerUrl(s2)
+				s2 = helper.GenderUrl(s2)
 				domainHost, err = url.Parse(s1)
 				if err != nil {
 					log.Error(err)
